@@ -1,11 +1,9 @@
 import React from "react";
+import MenuLeft from "../Components/Menu-left/Menu-left";
 
 function Home(){
     return(
-      <div>
-        <h1>Home</h1>
-        <p>est</p>
-      </div>
+        <MenuLeft/>
     )
 }
 
