@@ -2,6 +2,10 @@
     list-style: none;
 }
 
+.link{
+    text-decoration: none;
+}
+
 .container-nav{
     padding-left: 30px;
     padding-right: 30px;

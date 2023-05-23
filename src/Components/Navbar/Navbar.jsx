@@ -16,7 +16,7 @@ function Navbar(){
         <div className="container-nav">
             <input type="text" placeholder="Search..." />
             <ul className="links-nav">
-                <Link to="/"><li className="link-nav"><img className="active-link" src={homeBtn} alt="home btn"/>Home</li></Link>
+                <Link className="link" to="/"><li className="link-nav"><img className="active-link" src={homeBtn} alt="home btn"/>Home</li></Link>
                 <li className="link-nav"><img src={explorerBtn} alt="explorer btn"/>Explorer</li>
                 <li className="link-nav"><img src={friendsBtn} alt="friends btn"/>Friends</li>
                 <li className="link-nav"><img src={gamesBtn} alt="games btn"/>Games</li>
