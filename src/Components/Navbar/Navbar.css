@@ -76,6 +76,8 @@
     font-size: 1rem;
     display: flex;
     align-items: center;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 .link-nav:hover{
