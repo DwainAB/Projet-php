@@ -1,12 +1,14 @@
 import React from "react";
-import MenuLeft from "../Components/Menu-left/Menu-left";
-import "./Home.css"
+import MenuCentral from "../Components/Menu-central/Menu-central";
+import MenuLeft from "../Components/Menu-left/Menu-left"
+import './Home.css'
 
 function Home(){
     return(
-        <div className="position-home">
-            <MenuLeft/>
-        </div>
+      <div className="container-global">
+        <MenuLeft/>
+        <MenuCentral/>
+      </div>
     )
 }
 
