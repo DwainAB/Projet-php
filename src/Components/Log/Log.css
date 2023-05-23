@@ -7,6 +7,19 @@
     text-align: center;
     margin: 0 auto;
     margin-top: 20px;
+    position: absolute;
+    left: 40%;
+    top: 250px;
+    border-radius: 20px;
+    transition: 0.7s;
+    opacity: 1;
+    z-index: 1;
+}
+
+.flip-active{
+    transform: rotateY(180deg);
+    opacity: 0;
+    z-index:-2;
 }
 
 .container-form-login>h1, .container-form-signup>h1{
@@ -27,6 +40,11 @@
    border: 0;
    background-color: transparent;
    border-bottom: 2px solid #d9d9d9;
+   color: #ffffff;
+}
+
+.form-signup input:focus, .form-login input:focus{
+    outline: none;
 }
 
 .btn-form{
@@ -37,4 +55,36 @@
     border: 0!important;
     color: #ffffff;
     margin: 0 auto;
+    border-radius:16px ;
+}
+
+.flip-text{
+    color: #d9d9d9;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 40%;
+    top: 650px;
+}
+
+.flip-button{
+    height: 33px;
+    background-color: #08a8f4;
+    border: 0;
+    position: absolute;
+    left: 43%;
+    top: 700px;
+    border-radius: 16px;
+    color: #ffffff;
+    width: 246px;
+}
+
+.flip-button:hover{
+    cursor: pointer;
+}
+
+.logo-form{
+    position: absolute;
+    left: 46%;
+    top: 150px;
 }
