@@ -60,6 +60,21 @@ function MenuLeft(){
                 </div>
                 <p className="about">Voir tout +</p>
             </div>
+            <div className="join-community">
+                <div className="join-community-title">
+                    <h1>Seen recently</h1>
+                    <img src={Point} alt="menu" />
+                </div>
+                <div className="seen-recently">
+                    <div className="bg-clair"></div>
+                    <div className="little-img-recently">
+                        <div className="bg-clair"></div>
+                        <div className="bg-clair"></div>
+                    </div>
+                    <div className="bg-clair"></div>
+                </div>
+                <p className="about">Voir tout +</p>
+            </div>
         </div>
     )
 }
