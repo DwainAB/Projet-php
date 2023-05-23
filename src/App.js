@@ -12,6 +12,12 @@ function App(){
     
     <BrowserRouter>
     <div className="app">
+        <div className="svg-all">
+          <div className="svg-1"></div>
+          <div className="svg-2"></div>
+          <div className="svg-3"></div>
+          <div className="svg-4"></div>
+        </div>
         <Navbar/>
         <Routes>
           <Route path="/" element={<Home/>} />
