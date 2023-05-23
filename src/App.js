@@ -1,7 +1,6 @@
 import {Routes,Route, BrowserRouter} from "react-router-dom"
 import React from "react"
 import Home from "./Pages/Home"
-import Navbar from "./Components/Navbar/Navbar"
 import "./App.css"
 import LogPage from "./Pages/Log-page"
 
@@ -18,10 +17,9 @@ function App(){
           <div className="svg-3"></div>
           <div className="svg-4"></div>
         </div>
-        <Navbar/>
         <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/log" element={<LogPage/>}/>
+          <Route path="/" element={<LogPage/>} />
+          <Route path="/home" element={<Home/>}/>
         </Routes>
     </div>
     </BrowserRouter>
