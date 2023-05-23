@@ -1,9 +1,12 @@
 import React from "react";
 import MenuLeft from "../Components/Menu-left/Menu-left";
+import "./Home.css"
 
 function Home(){
     return(
-        <MenuLeft/>
+        <div className="position-home">
+            <MenuLeft/>
+        </div>
     )
 }
 

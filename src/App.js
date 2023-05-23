@@ -3,6 +3,7 @@ import React from "react"
 import Home from "./Pages/Home"
 import Navbar from "./Components/Navbar/Navbar"
 import "./App.css"
+import LogPage from "./Pages/Log-page"
 
 
 function App(){  
@@ -14,6 +15,7 @@ function App(){
         <Navbar/>
         <Routes>
           <Route path="/" element={<Home/>} />
+          <Route path="/log" element={<LogPage/>}/>
         </Routes>
     </div>
     </BrowserRouter>
