@@ -13,6 +13,8 @@ import logoimage from '../../Assets/logo-image.svg'
 import logoemoji from '../../Assets/logo-emoji.svg'
 import logoprofil from '../../Assets/logo-profil.svg'
 import logolink from '../../Assets/logo-link.svg'
+import post1 from '../../Assets/post1.png'
+import imageprofil from '../../Assets/profil2.png'
 
 function MenuCentral(){
     return(
@@ -46,6 +48,30 @@ function MenuCentral(){
                 </div>
             
             </div>
+
+            <div className="middle-second">
+
+                <div className="middle-second-left">
+                    <img className="middle-second-img" src={post1} alt="" />
+                </div>
+
+                <div className="middle-second-right">
+                    <h1 className="middle-second-h1" >Aujourd’hui j’ai fais mon premier site en react, voici le lien</h1>
+                    <p className="middle-second-p" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown <span className="middle-second-span" >Lire plus ...</span></p>
+                    <div className="middle-second-bottom">
+                        
+                        <div className="middle-profil">
+                            <img className="middle-profil-img" src={imageprofil} alt="" />
+                            <div className="profil-info">
+                                <h6 className="profil-info-h6">Booba</h6>
+                                <p className="profil-info-p">Il y'a <span className="span-info">12</span>minutes</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
         </div>
 
     )
